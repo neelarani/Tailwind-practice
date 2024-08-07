@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Reset code starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Reset code starts here */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+/* Container style */
+.container {
+  max-width: 1440px;
+  height: 715px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: Inter;
+  margin-left: 180px;
+}
+
+.logo span {
+  color: rgb(230, 83, 60);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar p {
+  color: rgb(255, 255, 255);
+  margin-left: 47px;
+  margin-top: 47px;
+}
+
+.navbar .menu-item {
+  display: flex;
+  text-align: right;
+}
+
+.menu-item {
+  margin-right: 190px;
+  display: flex;
+}
+
+.span {
+  display: flex;
+  background-color: rgb(230, 83, 60);
+  width: 92px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 46px;
+}
+.menu-item .span {
+  margin-top: 53px;
+}
+
+.menu-item p {
+  cursor: pointer;
+  margin-top: 62px;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.menu-item i {
+  color: rgb(255, 255, 255);
+  margin-top: 62px;
+  margin-left: 47px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+/* banner section styles starts here */
+.stay-healthy-content {
+  width: 520px;
+  height: 440px;
+  position: absolute;
+  top: 200px;
+  margin-left: 220px;
+}
+.stay-healthy-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: Inter;
+  margin: 70px 0;
+  margin-top: 0;
+  text-align: left;
+}
+.stay-healthy-content p {
+  color: rgb(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.button-primary,
+.btn-2 {
+  background: rgb(230, 83, 60);
+  width: 224px;
+  height: 54px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 42px;
+  margin-top: 30px;
+  margin-right: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-2 {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.stay-healthy-image {
+  width: 350px;
+  height: 580px;
+  position: absolute;
+  top: 135px;
+  right: 214px;
+}
+
+.card-video-tutorial {
+  position: absolute;
+  width: 206px;
+  height: 96px;
+  left: 764px;
+  top: 556px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.card-video-tutorial h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-right: 60px;
+}
+.card-video-tutorial p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+.card-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+  position: absolute;
+  left: 15px;
+}
+
+.card-video-tutorial i {
+  position: absolute;
+  left: 31px;
+  top: 38px;
+}
+
+.card-text {
+  margin-left: 40px;
+}
+
+.workout-card {
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  right: 130px;
+  top: 260px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.workout-card-text h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 24px;
+}
+.workout-card-text p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+/* banner section styles ends here */
+
+/* habit section style starts here */
+.habit-container {
+  width: 1044px;
+  height: 452px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.habit-content {
+  width: 670px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.habit-content h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.habit-content p {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.habits-images {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.habits-images,
+h3,
+p {
+  color: rgb(255, 255, 255);
+  margin-left: 25px;
+  text-align: center;
+}
+
+.image img {
+  width: 210px;
+  height: 190px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.habits-images h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.habits-images p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+/* habit section style ends here */
+
+/* food section style starts here */
+
+.food-container {
+  max-width: 1440px;
+  height: 500px;
+  margin-top: 100px;
+  background: rgb(34, 34, 34);
+}
+
+.food-content {
+  width: 670px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.food-content h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.food-content p {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.food-images {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.food img {
+  width: 400px;
+  height: 250px;
+  border-radius: 18px;
+  margin-left: 130px;
+  margin-top: 60px;
+}
+
+.food-images h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  margin-left: 120px;
+  justify-content: center;
+}
+
+.food-text h3 {
+  margin-top: 80px;
+  margin-right: 60px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 37px;
+  /* margin-left: 40px; */
+}
+
+.food-text p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: rgb(255, 255, 255, 0.5);
+  margin-right: 100px;
+  margin-left: 80px;
+}
+/* food section style ends here */
+
+/* Run section style starts here */
+.run-section {
+  width: 100%;
+  height: 500px;
+}
+
+.run-container {
+  width: 1044px;
+  height: 371px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 18px;
+}
+
+.run-content {
+  width: 443px;
+  height: 290px;
+  position: absolute;
+  left: 54px;
+  top: 41px;
+  display: flex;
+  flex-direction: column;
+}
+
+.run-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+.run-content p {
+  padding-top: 20px;
+  text-align: left;
+  margin: 0;
+  color: rgb(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.run-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.run-image img {
+  width: 366px;
+  height: 312px;
+  position: absolute;
+  right: 0;
+  margin: 30px;
+  border-radius: 18px;
+}
+/* Run section style ends here */
+
+/* BMI section style starts here */
+.bmi-calculator {
+  width: 100%;
+  height: 200px;
+}
+
+.bmi-content {
+  width: 671px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.bmi-content h3,
+p {
+  text-align: start;
+}
+
+.bmi-content h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 120%;
+  margin: 0;
+}
+
+.bmi-content p {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 15px 0px;
+}
+
+.bmi-chart {
+  width: 100%;
+  height: 500px;
+  background: rgb(34, 34, 34);
+  position: relative;
+}
+
+.chart-content {
+  position: absolute;
+  top: 52px;
+  left: 110px;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.bmi-chart-table {
+  width: 320px;
+  height: 216px;
+  top: 138px;
+  left: 140px;
+  position: absolute;
+}
+table {
+  width: 320px;
+  border: 1;
+}
+
+.bmi-chart-table th {
+  padding: 15px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.bmi-chart-table td {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.5);
+  padding: 15px 35px;
+}
+
+.bmi-chart-table tr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.Calculate-your-bmi {
+  width: 577px;
+  height: 386px;
+  position: absolute;
+  top: 52px;
+  right: 120px;
+  text-align: left;
+}
+
+.Calculate-your-bmi h2 {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.Calculate-your-bmi p {
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.calculate {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+}
+
+.input {
+  display: flex;
+  gap: 7px;
+}
+
+#select {
+  width: 100%;
+}
+
+/* BMI section style ends here */
+
+/* Team section style starts here */
+.team-gallery {
+  width: 100%;
+  height: 900px;
+}
+.team-container {
+  width: 1044px;
+  height: 782px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+
+.team-content {
+  width: 671px;
+  height: 120px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.team-content p {
+  text-align: center;
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.team-images {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: 40px;
+  position: relative;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+}
+
+.team-images img {
+  width: 326px;
+  height: 272px;
+  border-radius: 18px;
+  background: rgb(0, 0, 0, 0.1);
+  opacity: 0.7;
+}
+
+.trainer h2 {
+  position: absolute;
+  bottom: 50px;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+}
+
+.trainer p {
+  position: absolute;
+  bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.trainer-name h2 {
+  position: absolute;
+  bottom: 340px;
+  margin-left: 20px;
+  background-blend-mode: overlay;
+}
+
+.trainer-name p {
+  position: absolute;
+  bottom: 320px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+/* Team section style ends here */
+
+/* Footer section style starts here */
+.footer-section {
+  max-width: 1440;
+  height: 489px;
+  background: rgb(32, 32, 32);
+  position: relative;
+}
+
+.footer-content {
+  width: 1059px;
+  height: 220px;
+  margin-top: 88px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.footer-content ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.footer-content ul li {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.5);
+  line-height: 30px;
+}
+
+.box1 {
+  width: 443px;
+  height: 176px;
+}
+
+.box1 h2 {
+  margin-left: 25px;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.box1 p {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.5);
+  line-height: 24px;
+}
+.box1 span {
+  color: rgb(230, 83, 60);
+}
+
+.box {
+  width: 200px;
+  height: 220px;
+}
+
+.box h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.reserved {
+  position: absolute;
+  bottom: 30px;
+  left: 470px;
+}
+
+.reserved p {
+  width: 400px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.reserved hr {
+  margin-bottom: 30px;
+}
+
+/* Footer section style ends here */
+
+/* Responsive design */
+@media screen and (max-width: 576px) {
+}
